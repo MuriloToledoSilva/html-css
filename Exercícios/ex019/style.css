@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/*Em HTML é id = Em CSS é #
+Em HTML é class = Em CSS é .*/
+body {
+    background-color: rgb(159, 238, 159);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 /*por padrão, todo seletor é genérico, ou seja, todo h1 irá ter essa mudança.*/ {
+    color: green;
+}
+
+h1#principal /*Seletor personalizado*/ {
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+h2 {
+    color: rgb(86, 226, 86);
+    
+}
+.basico {
+    color: rgb(17, 114, 17); 
+}
+
+.intermediario {
+    color: rgb(134, 182, 3);
+}
+
+.avançado {
+    color: rgb(153, 62, 62);
+}
+.destaque {
+    background-color:rgba(200, 255, 0, 0.493);
+}

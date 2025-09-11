@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@import url();
+
+body {
+    background-color: black;
+}
+
+h1 {
+    padding-bottom: 20px ;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(2, auto); /* 2 colunas */
+    gap: 10px; /* espaço entre imagens */
+    justify-content: center; /* centraliza horizontalmente */
+    margin: 30px 30px 30px 30px;
+   
+}
+.galeria img {
+    width: 250px;
+    display: block;
+}
+
+p { 
+    text-decoration: none;
+    color: black;
+    font-size: 20px;       /* aumenta o tamanho da fonte */
+    line-height: 1.6;      /* aumenta o espaçamento entre linhas */
+    max-width: 600px;      /* define uma largura máxima confortável */
+    margin: 20px auto;   /* centraliza e dá espaço em volta */
+    text-align: center;    /* opcional: texto alinhado */
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+img.bottom {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.video {
+    text-align: center;
+}
